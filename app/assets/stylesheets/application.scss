@@ -57,6 +57,7 @@ nav .fas, nav .far {
 }
 
 .perth02 {
+    display: block;
     color: white;
     background: image-url("perth02.jpg");
     background-size: cover;
@@ -104,7 +105,6 @@ nav .fas, nav .far {
 
 .service-list {
     padding: 200px 0;
-    // background: linear-gradient(360deg, #333, #fff);
     background: linear-gradient(135deg, #05FBFF, #409aeb);
     padding: 50px;
 }
@@ -142,8 +142,47 @@ nav .fas, nav .far {
     font-size: 80px;
 }
 
+.dip {
+    width: 100%;
+}
+
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+
+.pagetop a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #222222;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 3px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.pagetop a:hover {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 3px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
 footer {
-    // background-color: #333;
     background: linear-gradient(#333, #999999);
     padding: 30px;
     p {

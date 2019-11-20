@@ -15,12 +15,14 @@
 //= require turbolinks
 //= require_tree .
 
-// = require jquery
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
 //= require jquery_ujs
 
 $(function(){
     $('.top-img').css('display', 'none').fadeIn(2000);
-    $('.text').hide().slideDown(3000);
+    $('.text').hide().show(3000);
 
     var pagetop = $('.pagetop');
 

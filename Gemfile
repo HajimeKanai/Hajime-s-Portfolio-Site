@@ -12,6 +12,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
@@ -20,7 +22,7 @@ group :development, :test do
 end
 
 group :development do
-    gem 'sqlite3'
+    gem 'sqlite3', '~> 1.3.6'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
